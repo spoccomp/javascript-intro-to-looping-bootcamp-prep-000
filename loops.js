@@ -5,7 +5,7 @@ function makeArray() {
     if ( i === 1){
       array.push("I am 1 strange loop.");
     } else {
-      array.push('I am ${i} strange loop.');
+      array.push('I am'+ i + ' strange loop.');
     }
   }
   return array;
