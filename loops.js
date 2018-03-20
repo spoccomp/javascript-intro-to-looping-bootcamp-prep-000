@@ -18,7 +18,7 @@ function whileLoop(counter){
   }
   return 'done';
 }
-var myArray1 = [];
+var myArray1 = ['dog','cat','mouse'];
 function maybeTrue(array) {
   return Math.random() >= 0.5
 }
