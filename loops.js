@@ -18,7 +18,7 @@ function whileLoop(counter){
   }
   return 'done';
 }
-var myArray1 = ['dog','cat','mouse','stuuff'];
+var myArray1 = ['dog'];
 function doWhileLoop(array) {
   array.pop();
   return array;
