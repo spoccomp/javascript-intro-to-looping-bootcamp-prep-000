@@ -22,8 +22,8 @@ var myArray1 = ['dog','cat','mouse'];
 function maybeTrue(array) {
   var number = Math.random() >= 0.5;
   array.pop();
-  return array, number;
+  return array;
 }
 do {
   console.log('doo-bee-doo-bee-doo')
-} while (myArray1.length > 0 && maybeTrue());
+} while (myArray1.length > 0 && maybeTrue(myArray1));
