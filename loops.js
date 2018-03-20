@@ -3,7 +3,7 @@ function makeArray() {
   const array = [];
   const t = 25;
 
-  for (let i = 0; i < t; i++) {
+  for (var i = 0; i < t; i++) {
     array.push("I am a " ${i} " strange loop.")
   }
 
