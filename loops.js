@@ -1,6 +1,5 @@
-var myArray =[];
+vvar myArray =[];
 function forLoop(array) {
-//var array = [];
 
     for (var i = 0; i < 25; i++) {
       if ( i === 0){
