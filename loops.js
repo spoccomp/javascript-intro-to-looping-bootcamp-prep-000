@@ -4,8 +4,9 @@ function makeArray() {
   const t = Math.floor(Math.random() * 10)
 
   for (let i = 0; i < t; i++) {
-    array.push("I am a strange loop.")
+    array.push("I am a " ${i} " strange loop.")
   }
 
   return [array, t]
+
 }
