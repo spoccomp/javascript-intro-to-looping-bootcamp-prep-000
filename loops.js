@@ -1,4 +1,4 @@
-ffunction makeArray() {
+function makeArray() {
   const array = [];
   const t = Math.floor(Math.random() * 10);
   for (count = 0; count <=25; count++){
