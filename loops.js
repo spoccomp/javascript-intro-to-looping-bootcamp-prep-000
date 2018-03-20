@@ -1,8 +1,9 @@
 var array = [];
 function makeArray(array) {
-  const t = Math.floor(Math.random() * 10);
+  
+  //const t = Math.floor(Math.random() * 10);
 
-    for (var i = 0; i < t; i++) {
+    for (var i = 0; i < 25; i++) {
       if ( i === 1){
         array.push("I am 1 strange loop.");
       } else {
