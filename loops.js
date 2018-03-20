@@ -20,9 +20,11 @@ function whileLoop(counter){
 }
 var myArray1 = ['dog','cat','mouse'];
 function maybeTrue(array) {
-  return Math.random() >= 0.5
+  var number = Math.random() >= 0.5;
+  myArray1.pop();
+  return array, number;
 }
-
+maybeTrue(myArray1);
 do {
   console.log('doo-bee-doo-bee-doo')
 } while (myArray1.length > 0 && maybeTrue());
