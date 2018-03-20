@@ -1,5 +1,6 @@
-function makeArray() {
-  const array = [];
+var array = [];
+function makeArray(array) {
+  //const array = [];
   const t = Math.floor(Math.random() * 10);
   
     for (var i = 0; i < t; i++) {
