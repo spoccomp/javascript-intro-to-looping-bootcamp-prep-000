@@ -18,3 +18,11 @@ function whileLoop(counter){
   }
   return 'done';
 }
+var myArray1 = [];
+function maybeTrue(array) {
+  return Math.random() >= 0.5
+}
+ 
+do {
+  console.log('doo-bee-doo-bee-doo')
+} while (myArray1.length > 0 && maybeTrue());
