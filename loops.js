@@ -1,11 +1,11 @@
 
-function myArray(){
-  var array = [];
-  for(var i = 1; i < 26; i ++){
+function makeArray() {
+  const array = []
+  const t = Math.floor(Math.random() * 10)
 
-  	array.push('I am ' + i + " strange loops.");
-
-
+  for (let i = 0; i < t; i++) {
+    array.push("I am a strange loop.")
   }
-  return array;
+
+  return [array, t]
 }
