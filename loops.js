@@ -1,6 +1,6 @@
 var array = [];
-function makeArray(array) {
-  
+function makeArray(array, elements) {
+
   //const t = Math.floor(Math.random() * 10);
 
     for (var i = 0; i < 25; i++) {
