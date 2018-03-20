@@ -1,12 +1,12 @@
 
 function makeArray() {
   const array = [];
-  const t = 25;
+  
 
-  for (var i = 0; i < t; i++) {
+  for (var i = 0; i < 25; i++) {
     array.push("I am a " ${i} " strange loop.")
   }
 
-  return [array, t]
+  return [array, i];
 
 }
