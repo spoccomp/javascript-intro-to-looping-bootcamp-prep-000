@@ -7,6 +7,6 @@ function makeArray() {
     array.push("I am a " ${i} " strange loop.")
   }
 
-  return [array, i];
+  return array;
 
 }
