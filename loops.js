@@ -1,7 +1,12 @@
-var myArray = [];
+var array = [];
 for(var i = 0; count < 25; count ++){
 
-    //var addMyStuff = 'I am ${count} strange loops.'
-    console.log(myArray.push('I am ${i} strange loops.'));
+    
+    console.log(addToArray['I am' + ${i} + "strange loops."]);
+
+}
+function addToArray(array, elment){
+  array.push(element);
+  return array
 
 }
